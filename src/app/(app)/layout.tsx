@@ -1,5 +1,3 @@
-import React from 'react';
-
-export default function layout() {
-  return <div>layout</div>;
+export default function DashboardLayout({ children }: { children: React.ReactNode }) {
+  return <section>{children}</section>;
 }
