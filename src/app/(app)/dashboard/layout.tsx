@@ -9,10 +9,10 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
           <AppSidebar />
           <div className="flex min-w-0 flex-col">
             <header className="sticky top-0 z-10 flex h-14 items-center gap-2 border-b border-slate-800 bg-slate-950/80 px-4 backdrop-blur">
-              <SidebarTrigger />
+              {/* <SidebarTrigger /> */}
 
               <div className="flex w-full items-center justify-between">
-                <div className="text-sm font-medium">Gridsight</div>
+                <div className="text-sm font-medium">Industrial Operation Platform</div>
                 <div className="text-xs text-slate-400">Role: Operator</div>
               </div>
             </header>
